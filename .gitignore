@@ -1,3 +1,14 @@
+#custom
+*.sublime-project
+*sublime-workspace
+*.log
+main
+gui
+.git.bak
+venv
+
+# GitHub
+
 !Build/
 .last_cover_stats
 /META.yml
