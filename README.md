@@ -22,19 +22,19 @@
 - если выбрано закачать - демон закачивает файл через Transmission RPC (нужен адрес, логин и пароль). Можно и удалить файл.
 
 ## По коду
-- Main.pm - основной код
-- runner.pl - запуск демона
-- RequestHandler.pm - работает с Transmission
+- [Main.pm](Main.pm) - основной код
+- [runner.pl](runner.pl) - запуск демона
+- [RequestHandler.pm](RequestHandler.pm) - работает с Transmission
 
 # Первая версия
 
-в отдельной папке kazaki\_torrent\_script
+[в отдельной папке: kazaki\_torrent\_script](kazaki_torrent_script)
 
-Еще более "коленочная", прямолинейная версия, GUI на TK perl библиотеке.
-В отличии от предыдущей: на определенном сайте публиковался сериал, в виде торрентов, программа, по расписанию проверяла сайт, и автоматически закачивала новый торрент локально.
+Еще более "коленочная", прямолинейная версия, GUI на TK perl библиотеке.  
+Отличие от предыдущей: на определенном сайте публиковался сериал, в виде торрентов, программа, по расписанию проверяла сайт, и автоматически закачивала новый торрент локально.
 
 ## Основные файлы:
 
-- torrents_manager.pl
-- download_watcher.pl
-- kazaki\_torrent\_checker.pl
+- [torrents_manager.pl](kazaki_torrent_script/torrents_manager.pl)
+- [download_watcher.pl](kazaki_torrent_script/download_watcher.pl)
+- [kazaki\_torrent\_checker.pl](kazaki_torrent_script/kazaki_torrent_checker.pl)
